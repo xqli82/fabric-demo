@@ -1,3 +1,5 @@
+# 0.引言
+官网API地址:http://fabricjs.com/docs/
 # 1.主渲染
 + fabric.Canvas
 + fabric.StaticCanvas
