@@ -1,6 +1,10 @@
-# 基本介绍
+[toc]
+
+# 1.基本介绍
+
 官网API地址:http://fabricjs.com/docs/fabric.Canvas.html
-# fabric.Canvas使用
+# 2.fabric.Canvas
+## 使用
 ```
 const canvas = new fabric.Canvas('canvas id')
 ```
@@ -53,3 +57,14 @@ const canvas = new fabric.Canvas('canvas id')
 + object:skewed   
 >at the end of a skew transform
 ## 主要属性
+# 3.fabric.StaticCanvas
+## 使用
+```
+const static_canvas = new fabric.StaticCanvas('canvas id')
+```
+## 事件
++ before:render
++ after:render
++ canvas:cleared
++ object:added
++ object:removed
