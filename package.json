@@ -1,0 +1,21 @@
+{
+  "name": "fabric-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push":"git add . && git commit -m 'more' && git push -u origin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xqli82/fabric-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xqli82/fabric-demo/issues"
+  },
+  "homepage": "https://github.com/xqli82/fabric-demo#readme"
+}
