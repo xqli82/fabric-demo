@@ -10,9 +10,9 @@ const canvas = new fabric.Canvas('canvas id')
 ```
 ## 事件
 + object:modified  
->at the end of a transform or any change when statefull is true
+>at the end of a transform or any change when statefull is true  
 + object:rotating   
->while an object is being rotated from the control
+>while an object is being rotated from the control  
 + object:scaling   
 >while an object is being scaled by controls
 + object:moving   
