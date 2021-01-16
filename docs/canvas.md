@@ -6,7 +6,7 @@ const canvas = new fabric.Canvas('canvas id')
 ```
 ## 事件
 + object:modified  
-    at the end of a transform or any change when statefull is true
+> at the end of a transform or any change when statefull is true
 + object:rotating   
     while an object is being rotated from the control
 + object:scaling   
@@ -52,3 +52,4 @@ const canvas = new fabric.Canvas('canvas id')
     at the end of translation transform
 + object:skewed   
     at the end of a skew transform
+## 主要属性
