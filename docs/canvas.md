@@ -30,7 +30,7 @@ const canvas = new fabric.Canvas('canvas id')
     on mouse down,event: before the inner fabric logic runs
 + mouse:move:before   
     on mouse move,event: before the inner fabric logic runs
-+ mouse:up:before   
++ mouse: up :before   
     on mouse up,event: before the inner fabric logic runs
 + mouse:over
 + mouse:out
