@@ -1,0 +1,56 @@
+# 1.主渲染
++ fabric.Canvas
++ fabric.StaticCanvas
+# 2.对象填充
++ fabric.Color
++ fabric.Gradient
++ fabric.Pattern
++ fabric.Shadow
+# 3.继承于fabric.Object的2D图形
++ fabric.Object
+    - fabric.Line
+    - fabric.Circle
+    - fabric.Triangle
+    - fabric.Ellipse
+    - fabric.Rect
+    - fabric.Polyline
+    - fabric.Polygon
+    - fabric.Group
+    - fabric.Text
+        + fabric.IText
+    - fabric.Image
+        + fabric.Image.filters
+            - BaseFilter
+            - Brightness
+            - Convolute
+            - GrandientTransparency
+            - Grayscale
+            - Invert
+            - Mask
+            - Noise
+            - Pixelate
+            - RemoveWhite
+            - Sepia
+            - Sepia2
+            - Tint
+    - fabric.Path
+        + fabric.PathGroup
+# 4.非继承于fabric.Object的2D实体
++ fabric.Point
++ fabric.Intersection
+# 5.主要的fabric namespace
++ fabric
+    - fabric.Observable
+    - fabric.Collection
+# fabric utils & helpers
++ fabric.util
+    - fabric.util.object
+    - fabric.util.array
+    - fabric.util.string
+    - fabric.util.ease
+# fabric自由画画笔刷
++ fabric.BaseBrush
+    - fabric.PencilBrush
+    - fabric.CircleBrush
+    - fabric.SprayBrush
+    - fabric.PatternBrush
